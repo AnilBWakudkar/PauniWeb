@@ -1,0 +1,132 @@
+/* --------------------------------footer------------------------------ */
+
+.footer-content {
+    background-color: rgb(217, 229, 235);
+    height: auto;
+    color: #8a8a8a;
+    font-size: 1.3rem;
+    padding: 1.25rem 1.25rem 1.25rem 1.25rem;
+    box-sizing: border-box;
+    margin-top: 8%;
+    width: 100%;
+
+}
+
+.footer-content a {
+    text-decoration: none;
+    font-size: 0.9375rem;
+}
+
+.footer-colum-2 {
+    margin-top: 3%;
+    
+}
+.footer-colum-2 .links{
+    font-size: medium;
+    font-weight: bold;
+}
+.footer-colum-2 ul{
+    display: block;
+}
+.footer-colum-2 ul li a{
+    font-size: small;
+}
+
+.footer-colum-1 h2 {
+    font-size: 15px;
+    font-weight: 400;
+    text-transform: uppercase;
+    background: -webkit-linear-gradient(#eee, rgb(69, 57, 248));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.footer-colum-1 h2 span {
+    font-size: 25px;
+  }
+.social-icon a {
+    display: inline-flex;
+    margin: 0.5rem;
+}
+
+.social-icon .fa {
+    font-size: 1.5rem;
+}
+
+.footer-content .row-f {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+
+.links {
+    font-size: 3.75rem;
+    font-weight: 700;
+    color: black;
+    align-items: center;
+    padding-left: 2rem;
+}
+
+.footer ul li {
+    text-decoration: none;
+    list-style-type: none;
+
+}
+
+
+/* ----------copyright section---------- */
+.copyright {
+    background-color: rgba(46, 67, 68, 0.7);
+    color: white;
+    padding: 0.625rem 10%;
+    text-align: center;
+}
+
+.useful-links a {
+    margin: 0px 16px 0px 16px;
+    text-decoration: none;
+    font-size: small;
+    display: inline-flex;
+    justify-content: space-between;
+    /* color:rgb(41, 13, 154); */
+
+}
+
+.copyright-msg {
+    text-align: center;
+    margin-top: 0.625rem;
+    font-size: 12px;
+}
+
+/* -----------------mediaquery------------------ */
+/* @media (min-width :10rem) and (max-width :75rem) {
+
+    *{
+        width: 100%;
+        height: auto;
+    }
+.footer .row-f {
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 10px;
+    display: block;
+    /* margin-bottom: 10px; 
+}*/
+
+/*.footer .row-f .social-icon .fa{
+    display: inline;
+}
+
+.column-1{
+    display: block;
+    width: 100%;
+}
+.column-1 img{
+    width: 100%;
+}
+.copyright{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+}
+} */

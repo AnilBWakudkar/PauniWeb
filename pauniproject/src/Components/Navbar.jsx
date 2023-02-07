@@ -4,6 +4,7 @@ import {
   FaFacebookSquare,
   FaInstagramSquare,
   FaYoutubeSquare,
+  
 //   FaMap,
 } from "react-icons/fa";
 import { GiHamburgerMenu } from "react-icons/gi";
@@ -12,6 +13,7 @@ import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
   const [showMediaIcons, setShowMediaIcons] = useState(false);
+  
   return (
     <>
       <nav className="main-nav">
@@ -28,18 +30,19 @@ const Navbar = () => {
           className={
             showMediaIcons ? "menu-link mobile-menu-link" : "menu-link"
           }>
+            
           <ul>
             <li>
               <NavLink to="/">Home</NavLink>
             </li>
             <li>
-              <NavLink to="/about">about</NavLink>
+              <NavLink to="/about">About</NavLink>
             </li>
             <li>
-              <NavLink to="/service">services</NavLink>
+              <NavLink to="/latestnews">Latestnews</NavLink>
             </li>
             <li>
-              <NavLink to="/contact">contact</NavLink>
+              <NavLink to="/contact">Contact</NavLink>
             </li>
           </ul>
         </div>

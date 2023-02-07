@@ -1,17 +1,20 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
+import "./Footer.css";
 const Footer = () => {
 
     return (
         <>
 
             {/* <!-- -------------footer contain-----------------> */}
-            <div className="footer ">
+            <div className="footer-content ">
                 <div className="container-f">
                     <div className="row-f">
-                        <div className="footer-col-1">
-                            <h2>AAPLI PAUNI </h2>
+                        <div className="footer-colum-1">
+                            <h2>
+                                <span>आ</span>पली
+                                <span>प</span>वणी
+                            </h2>
                             <p style={{ color: "blue" }}><b>Aapli Pauni</b> </p>
                             <p> <b> Mob No</b>:- 0000000000</p>
                             <p style={{ color: "blue" }}> <b> Aapli Pauni</b> :</p>
@@ -26,7 +29,7 @@ const Footer = () => {
                                 </span>
                             </div>
                         </div>
-                        <div className="footer-col-2">
+                        <div className="footer-colum-2">
                             <Link to="/about" className="links">About Us</Link>
                             <ul>
                                 <li><a to="#">Overview</a></li>
@@ -36,8 +39,8 @@ const Footer = () => {
                                 <li><a to="#">Location</a></li>
                             </ul>
                         </div>
-                        <div className="footer-col-2">
-                            <Link to="/expertise" className="links">Expertise</Link>
+                        <div className="footer-colum-2">
+                            <Link to="/latestnews" className="links">Latestnews</Link>
                             <ul>
                                 <li><a to="#">Overview</a></li>
                                 <li><a to="#">Visit Pauni</a></li>
@@ -46,19 +49,19 @@ const Footer = () => {
                                 <li><a to="#">Location</a></li>
                             </ul>
                         </div>
-                        
-                        <div className="footer-col-2">
+
+                        {/* <div className="footer-colum-2">
                             <Link to="/thought-center" className="as">Though Center</Link>
 
-                        </div>
-                        <div className="footer-col-2">
-                            <Link to="/contactus" className="links">Contact Us</Link>
+                        </div> */}
+                        <div className="footer-colum-2">
+                            <Link to="/contact" className="links">Contact</Link>
 
                         </div>
-                        <div className="footer-col-2">
+                        {/* <div className="footer-colum-2">
                             <Link to="joinus" className="links">Join Us</Link>
 
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </div>
