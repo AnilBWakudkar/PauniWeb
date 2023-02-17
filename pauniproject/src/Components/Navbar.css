@@ -58,7 +58,7 @@ li {
 .social-media ul {
   height: 10rem;
   display: grid;
-  grid-template-columns: 3fr repeat(3, 1fr);
+  grid-template-columns: 4fr repeat(4, 1fr);
   align-items: center;
   justify-content: flex-end;
 }
@@ -263,7 +263,12 @@ li {
   .logo,
   .social-media ul {
     height: 6rem;
+    /* align-items: center; */
   }
+/* 
+  .social-media-desktop{
+    display: flex;
+  } */
 
   .logo h2 {
     font-size: 2rem;
