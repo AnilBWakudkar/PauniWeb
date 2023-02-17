@@ -4,14 +4,9 @@ import {
   FaFacebookSquare,
   FaInstagramSquare,
   FaMapMarked,
-  FaMapMarker,
   FaYoutubeSquare,
-<<<<<<< HEAD
   
 //   FaMap,
-=======
-  //   FaMap,
->>>>>>> 54f195a0a57a432684f42a789abddc7d8fb4021b
 } from "react-icons/fa";
 import { GiHamburgerMenu } from "react-icons/gi";
 // import {IconName} from "react-icons/fa";
@@ -36,13 +31,8 @@ const Navbar = () => {
         <div
           className={
             showMediaIcons ? "menu-link mobile-menu-link" : "menu-link"
-<<<<<<< HEAD
           }>
             
-=======
-          }
-        >
->>>>>>> 54f195a0a57a432684f42a789abddc7d8fb4021b
           <ul>
             <li>
               <NavLink to="/">Home</NavLink>
