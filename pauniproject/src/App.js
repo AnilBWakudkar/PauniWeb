@@ -16,19 +16,20 @@ import Login from "./Admin/Login";
 function App() {
   return (
     <div className="App">
-      {/* <Navbar /> */}
+      <Navbar />
       {/* <Main/> */}
       <Switch>
-        {/* <Route path="/" exact component={Home}></Route>
+        <Route path="/" exact component={Home}></Route>
         <Route path="/about" exact component={About}></Route>
         <Route path="/latestnews" exact component={Latestnews}></Route>
         <Route path="/contact" exact component={Contact}></Route>
-        <Route path="/adminpage" exact component={AdminPage}></Route> */}
+        <Route path="/login" exact component={Login}></Route>
+        {/* <Route path="/adminpage" exact component={AdminPage}></Route> */}
         
       </Switch>
-        <Login/>
+        {/* <Login/> */}
 
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 }
